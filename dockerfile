@@ -15,9 +15,9 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     dplyr \
     devtools \
     formatR \
+    pROC \
     remotes \
-    selectr \
-    pROC
+    selectr 
 
 ## Notes: Above install2.r uses --deps TRUE to get Suggests dependencies as well,
 ## dplyr and ggplot are already part of tidyverse, but listed explicitly to get their (many) suggested dependencies.
