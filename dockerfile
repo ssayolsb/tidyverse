@@ -15,9 +15,9 @@ RUN apt-get update -qq && apt-get -y --no-install-recommends install \
     dplyr \
     devtools \
     formatR \
-    pROC \
     remotes \
-    selectr 
+    selectr \
+    pROC
 
 CMD ["R"]
 
